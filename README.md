@@ -1,0 +1,1 @@
+# Bicep-ADB-All-In-One-PrivateEndpoint
