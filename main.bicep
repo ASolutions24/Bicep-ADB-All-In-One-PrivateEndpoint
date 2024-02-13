@@ -249,7 +249,7 @@ resource privateEndpoint 'Microsoft.Network/privateEndpoints@2021-08-01' = {
       {
         name: privateEndpointName
         properties: {
-          privateLinkServiceId: workspace.id
+          privateLinkServiceId: symbolicname.id
           groupIds: [
             'databricks_ui_api'
           ]
